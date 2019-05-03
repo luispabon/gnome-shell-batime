@@ -34,7 +34,7 @@ var Indicator = class extends BaseIndicator {
       let hours = Math.floor(time / 60);
 
       // Translators: this is <hours>:<minutes>
-      return _("%s - %d\u2236%02d remaining").format(percentage, hours, minutes);
+      return _("%s - %d\u2236%02d").format(percentage, hours, minutes);
    }
 
    _sync() {
